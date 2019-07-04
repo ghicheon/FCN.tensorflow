@@ -1,3 +1,19 @@
+# INSTALL & RUN  ( google cloud   ubuntu 16.04  ) - my way!
+ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+ bash Miniconda3-latest-Linux-x86_64.sh  
+ 
+ conda create -n python2_again python=2.7 anaconda
+ conda activate python2_again
+ conda install tensorflow-gpu
+ git clone https://github.com/ghicheon/FCN.tensorflow
+ cd FCN.tensorflow
+ python FCN.py
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+
+
 # FCN.tensorflow
 Tensorflow implementation of [Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/pdf/1605.06211v1.pdf) (FCNs). 
 
